@@ -1,16 +1,17 @@
 #Установка
 
-##Установка при помощи Composer
+##Установка через git
+git clone https://github.com/efabrikov/deposit.git
+
+##Настройка Composer
 
 Если у вас ещё не установлен Composer, следуйте инструкциям в разделе установка Yii.
 
-Если Composer установлен, вы можете установить приложение используя следующие команды:
+Если Composer установлен, выполните команду:
 
 composer global require "fxp/composer-asset-plugin:1.0.0"
 
-composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
-
-Первая команда установит плагин composer asset plugin, который позволит работать с пакетами bower и npm через Composer. Эту команду необходимо выполнить единожды. Вторая команда установит приложение advanced в директорию yii-application. Вы можете выбрать другое имя директория если пожелаете.
+Команда установит плагин composer asset plugin, который позволит работать с пакетами bower и npm через Composer. Эту команду необходимо выполнить единожды. 
 
 ##Начало работы
 
