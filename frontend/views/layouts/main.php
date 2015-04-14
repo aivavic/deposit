@@ -33,8 +33,9 @@ AppAsset::register($this);
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            $menuItems = [
+            $menuItems = [                
                 ['label' => 'Home', 'url' => ['/site/index']],
+                ['label' => 'Bitcoin', 'url' => ['/bitcoin/index']],
                 ['label' => 'About', 'url' => ['/site/about']],
                 ['label' => 'Contact', 'url' => ['/site/contact']],
             ];
