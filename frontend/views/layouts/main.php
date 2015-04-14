@@ -22,7 +22,7 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
-	<div class="vzlom" style="background: red; color: white; position: fixed; width: 100%; height: 100%; text-align: center; z-index: 99999; padding-top:20%"><h1>Ваш сайт взломали</h1></div>
+	<!--<div class="vzlom" style="background: red; color: white; position: fixed; width: 100%; height: 100%; text-align: center; z-index: 99999; padding-top:20%"><h1>Ваш сайт взломали</h1></div>-->
     <?php $this->beginBody() ?>
     <div class="wrap">
         <?php
