@@ -33,3 +33,8 @@ php /path/to/yii-application/init --env=Production overwrite=All
 Настройте на вебсервере URL и корневые директории:
 для приложения frontend директория /path/to/yii-application/frontend/web/ и URL http://yourdomain/frontend/
 для приложения backend директория /path/to/yii-application/backend/web/ и URL http://yourdomain/backend/
+
+##Ежедневное обновление.
+git pull <br/>
+composer update <br/>
+yii migrate <br/>
