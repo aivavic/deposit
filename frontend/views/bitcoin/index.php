@@ -35,19 +35,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <br>
 
-<div class="well well-lg">
-    <span class="well well-sm">Label</span>
-    <span class="well well-sm">Adress</span>
-    <span class="well well-sm">Balance</span>
-    <span class="well well-sm">Salary</span>
+<div class="row">
+    <div class="col-lg-5 well">Label</div>
+    <div class="col-lg-5 well">Adress</div>
+    <div class="col-lg-1 well">Balance</div>
+    <div class="col-lg-1 well">Salary</div>
 </div>
 
 <?php foreach ($tableData as $key => $value) : ?>
-    <div class="well well-lg">
-        <span class="well well-sm"><?= $value->label ?></span>
-        <span class="well well-sm"><?= $value->address ?></span>
-        <span class="well well-sm"><?= $value->balance ?></span>
-        <span class="well well-sm"><?= $value->balance * 2 ?></span>
-    </div>
+<div class="row">
+    <div class="col-lg-5 well"><?= $value->label ?></div>
+    <div class="col-lg-5 well"><?= $value->address ?></div>
+    <div class="col-lg-1 well"><?= $value->balance ?></div>
+    <div class="col-lg-1 well"><?= $value->balance * 2 ?></div>
+</div>
 <?php endforeach; ?>
 

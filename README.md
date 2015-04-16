@@ -37,4 +37,4 @@ php /path/to/yii-application/init --env=Production overwrite=All
 ##Ежедневное обновление.
 git pull <br/>
 composer update <br/>
-yii migrate <br/>
+php yii migrate <br/>
